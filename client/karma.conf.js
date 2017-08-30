@@ -4,13 +4,24 @@
 module.exports = function (config) {
   config.set({
     basePath: '',
-    frameworks: ['jasmine', '@angular/cli'],
+    frameworks: ['jasmine-jquery','jasmine', '@angular/cli'],
+    files: [
+      {pattern: '../node_modules/jquery/dist/jquery.js', watched: false, served: true, included: true},
+      {pattern: '../node_modules/jasmine/bin/jasmine.js', watched: false, served: true, included: true},
+      {pattern: '../node_modules/jasmine-jquery/lib/jasmine-jquery.js', watched: false, served: true, included: true},
+      {pattern: 'src/test/ts/**/*.ts', watched: true, served: true, included: false},
+
+      // fixtures
+      {pattern: 'src/test/html/**/*.html', watched: true, served: true, included: false}
+    ],
     plugins: [
-      require('karma-jasmine'),
-      require('karma-chrome-launcher'),
-      require('karma-jasmine-html-reporter'),
-      require('karma-coverage-istanbul-reporter'),
-      require('@angular/cli/plugins/karma')
+      'karma-jquery',
+      'karma-jasmine',
+      'karma-jasmine-jquery',
+      'karma-chrome-launcher',
+      'karma-jasmine-html-reporter',
+      'karma-coverage-istanbul-reporter',
+      '@angular/cli/plugins/karma'
     ],
     client:{
       clearContext: false // leave Jasmine Spec Runner output visible in browser

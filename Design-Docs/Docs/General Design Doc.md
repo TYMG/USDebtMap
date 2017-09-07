@@ -129,3 +129,6 @@ A vertical highlighting effect that will proceed from left to right based on the
 ### Footer
 It will contain the Bibliographic citation of the source we pulled this data from. 
 
+## Inspiration
+I've taken inspiration from a number of sources, they include:
+* [The Forced Migration of Enslaved People](http://dsl.richmond.edu/panorama/forcedmigration/#tab=1&narratives=true&cotton=true&sugar=true&labels=false&decade=1810&loc=6/-9.601/12.775)

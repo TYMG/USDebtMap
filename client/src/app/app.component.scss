@@ -1,51 +1,41 @@
 // Standard Styles
 
 .my-auto {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-.p-1 {
-  padding:1%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .header {
-height: 9%;
+    height: 9%;
 }
-
 
 .app__main-component {
-
-  height: 78%;
-  padding: 2% 0;
+    height: 78%;
+    padding: 2% 0;
 }
-
 
 .footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+
     /* Set the fixed height of the footer here */
     height: 10%;
-    line-height: 60px; /* Vertically center the text there */
+    line-height: 60px;
+
+    /* Vertically center the text there */
     background-color: grey;
     color: white;
-  }
+}
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-
- }
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {     }
+@media (min-width: 768px) {}
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-
- }
+@media (min-width: 992px) {}
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-
- }
+@media (min-width: 1200px) {}

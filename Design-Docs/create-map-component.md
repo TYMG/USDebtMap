@@ -16,12 +16,17 @@ Create a Map Component that will occupy the component-container.
 ### Stylesheets
 * **map.component.scss**  
 
+### Specs
+* map.component.spec.ts
+  * Unit Tests
+  
+
 ### Services
 {{ List the Services that will be affected by the change }}
 
 ### Modules
-{{ List the modules that will be affected by the change }}
-
+* **app.module.ts**
+  Adding the map component to declarations
 ### Config
 {{ List the any config files that will be affected by the change }}
 

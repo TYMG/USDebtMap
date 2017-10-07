@@ -8,6 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "types" : ["jquery","jasmine-jquery","jasmine"],    
     "typeRoots": [
       "node_modules/@types"
     ],

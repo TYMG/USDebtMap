@@ -12,6 +12,7 @@ Create a Map Component that will occupy the component-container.
 * **map.component.html** 
 
 * **app.component.html**
+  Adding the 
   
 ### Stylesheets
 * **map.component.scss**  

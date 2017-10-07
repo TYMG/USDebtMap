@@ -57,11 +57,11 @@
   ],
   "test": {
     "karma": {
-      "config": "./karma.conf.js"
+      "config": "client/karma.conf.js"
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "scss",
     "component": {}
   }
 }

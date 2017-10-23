@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-flow: column;
+    overflow: scroll;
+}
+
+.map__center {
+    display: flex;
+    flex-flow: row;
+    height: 80%;
+}
+
+.title-component {
+    background-color: blue;
+    height: 10%;
+}
+
+.us-map-component {
+    background-color: red;
+}
+
+.heat-index-component {
+    background-color: yellow;
+    height: 50%;
+}
+
+.year-component {
+    background-color: green;
+    height: 50%;
+}
+
+.drawer-component {
+    background-color: pink;
+    height:10%;
+}
